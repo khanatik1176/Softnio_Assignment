@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config} */
+import daisyui from 'daisyui';
 export default {
   content: [
     "./index.html",
@@ -9,9 +10,16 @@ export default {
       colors: {
         Top: '#c52c1f',
         TopBtn: '#FEBF00',
+        Aboutclr: '#333333',
+        AboutNmbr: '#0A1425',
+        foodclr: '#BD1F17',
+        foodtxtclr: '#181818',
       },
       backgroundImage: {
         'top-bg': "url('./assets/Bg-img.png')",
+        'about-bg': "url('./src/assets/About-bg-img.png')",
+        'food-bg': "url('./src/assets/Fooditem-bg-img.png')",
+        'book-bg': "url('./src/assets/Booking-bg-img.png')",
       },
       fontFamily: {
         'Raleway': ["Raleway", "sans-serif"],
@@ -974,5 +982,6 @@ export default {
       },
     },
   },
-  plugins: [],
+  plugins: [daisyui,
+  ],
 }

@@ -16,7 +16,7 @@ const Topnav = () => {
 
 
   return (
-    <div className='top-area flex justify-between sticky top-0 z-20'>
+    <div className='top-area flex justify-between fixed w-full bg-Top bg-top-bg bg-cover bg-center top-0 z-20'>
       <div className="logo-area my-5 relative left-5 sm:left-5 md:left-5 lg:left-10 xl:left-40 2xl:left-60">
         <img src={Logo} alt='Landing-Logo' />
       </div>
@@ -32,7 +32,7 @@ const Topnav = () => {
         </ul>
        </div>
 
-       <div className="button-area my-6 relative right-5 top-4 sm:right-5 sm:top-4 md:right-5 md:top-0 lg:right-10 xl:right-40 2xl:right-60">
+       <div className="button-area my-6 relative right-16 top-4 sm:right-16 sm:top-4 md:right-5 md:top-0 lg:right-10 xl:right-40 2xl:right-60">
         <a href="/" className='bg-TopBtn px-6 py-3 font-Roboto font-bold md:text-sm lg:text-base text-black hidden md:flex'>BOOK A TABLE</a>
         <img src = {bar} alt='bar' onClick={toggleModal}  className='bar flex relative bottom-2 lg:bottom-0 md:hidden' />
        </div>
