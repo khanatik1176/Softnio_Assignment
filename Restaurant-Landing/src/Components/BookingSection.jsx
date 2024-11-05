@@ -102,7 +102,7 @@ const BookingSection = () => {
   };
 
   return (
-    <div className='bg-book-bg bg-no-repeat h-300 sm:h-300 md:h-220 lg:h-220 xl:h-250 2xl:h-190 about-area md:overflow-hidden'>
+    <div className='bg-book-bg bg-no-repeat bg-cover h-160 sm:h-160 md:h-160 lg:h-180 xl:h-180 2xl:h-190 about-area md:overflow-hidden'>
       <div className="book-text-area">
         <span className='bg-foodclr w-1 h-1 p-1.5 flex justify-start items-center relative left-6 top-5 sm:left-10 sm:top-5 md:left-36 md:top-5 lg:left-36 lg:top-5 xl:left-36 xl:top-5 2xl:left-60 2xl:top-10'></span>
         <p className='text-foodclr font-Roboto text-lg font-bold relative left-10 sm:left-14 md:left-40 lg:left-40 xl:left-40 2xl:left-64 2xl:-bottom-5'>Book Now</p>

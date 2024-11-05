@@ -14,17 +14,31 @@ export default {
         AboutNmbr: '#0A1425',
         foodclr: '#BD1F17',
         foodtxtclr: '#181818',
+        customerclr: '#FEBF00',
+        footerclr: '#F7F8F9',
+        nioclr: '#FEBF00',
       },
       backgroundImage: {
         'top-bg': "url('./assets/Bg-img.png')",
         'about-bg': "url('./src/assets/About-bg-img.png')",
         'food-bg': "url('./src/assets/Fooditem-bg-img.png')",
         'book-bg': "url('./src/assets/Booking-bg-img.png')",
+        'multiple-bg': "url('./src/assets/Customer-tomato-bg.png'), url('./src/assets/Customer-Spinace-bg.png')",
+        'customer-bg': "url('./src/assets/Customer-bg-img.svg')",
+        'footer-bg': "url('./src/assets/Footer-bg-img.png')",
+        
+      },
+      backgroundPosition: {
+        'multiple-bg': 'top left, bottom right',
+      },
+      backgroundRepeat: {
+        'multiple-bg': 'no-repeat, no-repeat',
       },
       fontFamily: {
         'Raleway': ["Raleway", "sans-serif"],
         'Roboto': ["Roboto", "sans-serif"],
         'BebusNeue': ["BebusNeue", "sans-serif"],
+        'Montserrat': ["Montserrat", "sans-serif"],
       },
       spacing: {
         '0.1': '0.1rem',

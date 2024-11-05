@@ -32,7 +32,7 @@ const Topnav = () => {
         </ul>
        </div>
 
-       <div className="button-area my-6 relative right-16 top-4 sm:right-16 sm:top-4 md:right-5 md:top-0 lg:right-10 xl:right-40 2xl:right-60">
+       <div className="button-area my-6 relative right-16 top-4 sm:right-20 sm:top-4 md:right-5 md:top-0 lg:right-10 xl:right-40 2xl:right-60">
         <a href="/" className='bg-TopBtn px-6 py-3 font-Roboto font-bold md:text-sm lg:text-base text-black hidden md:flex'>BOOK A TABLE</a>
         <img src = {bar} alt='bar' onClick={toggleModal}  className='bar flex relative bottom-2 lg:bottom-0 md:hidden' />
        </div>
