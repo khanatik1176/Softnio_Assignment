@@ -17,7 +17,7 @@ const Topnav = () => {
 
   return (
     <div className='top-area flex justify-between fixed w-full bg-Top bg-top-bg bg-cover bg-center top-0 z-20'>
-      <div className="logo-area my-5 relative left-5 sm:left-5 md:left-5 lg:left-10 xl:left-40 2xl:left-60">
+      <div className="logo-area my-5 relative left-5 xs:left-5 sm:left-5 md:left-5 lg:left-10 xl:left-40 2xl:left-60">
         <img src={Logo} alt='Landing-Logo' />
       </div>
 
@@ -32,13 +32,13 @@ const Topnav = () => {
         </ul>
        </div>
 
-       <div className="button-area my-6 relative right-16 top-4 sm:right-20 sm:top-4 md:right-5 md:top-0 lg:right-10 xl:right-40 2xl:right-60">
+       <div className="button-area my-6 relative top-3 right-12 xs:right-16 xs:top-4 sm:right-20 sm:top-4 md:right-5 md:top-0 lg:right-10 xl:right-40 2xl:right-60">
         <a href="/" className='bg-TopBtn px-6 py-3 font-Roboto font-bold md:text-sm lg:text-base text-black hidden md:flex'>BOOK A TABLE</a>
         <img src = {bar} alt='bar' onClick={toggleModal}  className='bar flex relative bottom-2 lg:bottom-0 md:hidden' />
        </div>
 
-       <div className={`fixed inset-0 bg-Top bg-opacity-0 flex justify-end z-20 h-[500px] transition-transform duration-700 ease-in-out transform ${isModalOpen ? '-translate-x-0' : 'translate-x-full'}`}>
-        <div className='w-1/3 h-full bg-Top p-4 rounded-tl-3xl'>
+       <div className={`fixed inset-0 bg-Top bg-opacity-0 flex justify-end z-20 h-[350px] md:h-[500px] transition-transform duration-700 ease-in-out transform ${isModalOpen ? '-translate-x-0' : 'translate-x-full'}`}>
+        <div className='w-1/3 h-full bg-Top p-4 rounded-tl-3xl rounded-bl-3xl'>
             <button className='text-white
             ' onClick={toggleModal}>
                 <img src={cross} alt="Cross-sign" />
