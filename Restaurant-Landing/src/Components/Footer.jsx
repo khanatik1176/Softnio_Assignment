@@ -1,5 +1,5 @@
 'use client';
-import React, { useState } from 'react';
+import { useState } from 'react';
 import Clock from "../assets/Hour.png";
 import Phone from '../assets/Talk.png';
 import Mail from '../assets/Book.png';

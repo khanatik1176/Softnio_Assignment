@@ -87,27 +87,27 @@ const AboutSection = () => {
 
       <div className="about-category-area grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
         <div className="item-1 relative top-20 left-10 xs:top-20 xs:left-10  sm:top-20 sm:left-10 md:top-14 lg:top-20 xl:top-10 2xl:right-30 2xl:top-0">
-          <span className='bg-white w-20 h-20 p-1.5 rounded-full border shadow-xl flex justify-start items-center relative md:left-10 md:top-10 lg:left-6 lg:top-10 xl:left-10 xl:top-50 2xl:left-20 2xl:top-60'>
+          <span className='bg-white w-20 h-20 p-1.5 rounded-full border shadow-xl flex justify-start items-center relative md:left-10 md:top-10 lg:left-2 lg:top-10 xl:left-10 xl:top-50 2xl:left-20 2xl:top-60'>
             <img src={delivery} alt="delivery-icon" className='relative left-3' />
           </span>
-          <h1 className='font-BebusNeue font-bold text-xl xs:text-2xl md:text-xl lg:text-2xl xl:text-3xl text-AboutNmbr relative left-24 -top-16 sm:left-24 sm:-top-16 md:left-32 md:-top-6 lg:left-28 lg:-top-6 xl:left-34 xl:top-34 2xl:left-44 2xl:top-42'>FAST DELIVERY</h1>
-          <p className='font-BebusNeue font-normal text-lg xs:text-xl md:text-lg lg:text-xl text-AboutNmbr relative left-24 -top-16 sm:left-24 sm:-top-16 md:left-32 md:-top-6 lg:left-28 lg:-top-6 xl:left-34 xl:top-34 2xl:left-44 2xl:top-42'>Within 30 minutes</p>
+          <h1 className='font-BebusNeue font-bold text-xl xs:text-2xl md:text-xl lg:text-xl xl:text-3xl text-AboutNmbr relative left-24 -top-16 sm:left-24 sm:-top-16 md:left-32 md:-top-6 lg:left-24 lg:-top-6 xl:left-34 xl:top-34 2xl:left-44 2xl:top-42'>FAST DELIVERY</h1>
+          <p className='font-BebusNeue font-normal text-lg xs:text-xl md:text-lg lg:text-lg text-AboutNmbr relative left-24 -top-16 sm:left-24 sm:-top-16 md:left-32 md:-top-6 lg:left-24 lg:-top-6 xl:left-34 xl:top-34 2xl:left-44 2xl:top-42'>Within 30 minutes</p>
         </div>
 
         <div className="item-2 relative top-10 left-10 xs:top-10 xs:left-10 sm:top-10 sm:left-10 md:top-14 lg:top-20 lg:right-6 xl:top-10 xl:right-20 2xl:right-100 2xl:top-0">
-          <span className='bg-white w-20 h-20 p-1.5 rounded-full border shadow-xl flex justify-start items-center relative md:left-10 md:top-10 lg:left-6 lg:top-10 xl:left-10 xl:top-50 2xl:left-0 2xl:top-60'>
+          <span className='bg-white w-20 h-20 p-1.5 rounded-full border shadow-xl flex justify-start items-center relative md:left-10 md:top-10 lg:-left-10 lg:top-10 xl:left-10 xl:top-50 2xl:left-0 2xl:top-60'>
             <img src={dinning} alt="delivery-icon" className='relative left-3' />
           </span>
-          <h1 className='font-BebusNeue font-bold text-xl xs:text-2xl md:text-xl lg:text-2xl xl:text-3xl text-AboutNmbr relative left-24 -top-16 sm:left-24 sm:-top-16 md:left-32 md:-top-6 lg:left-28 lg:-top-6 xl:left-34 xl:top-34 2xl:left-24 2xl:top-42'>ABSOLUTE DINNING</h1>
-          <p className='font-BebusNeue font-normal text-lg xs:text-xl md:text-lg lg:text-xl text-AboutNmbr relative left-24 -top-16 sm:left-24 sm:-top-16 md:left-32 md:-top-6 lg:left-28 lg:-top-6 xl:left-34 xl:top-34 2xl:left-24 2xl:top-42'>Best buffet restuarant</p>
+          <h1 className='font-BebusNeue font-bold text-xl xs:text-2xl md:text-xl lg:text-xl xl:text-3xl text-AboutNmbr relative left-24 -top-16 sm:left-24 sm:-top-16 md:left-32 md:-top-6 lg:left-14 lg:-top-6 xl:left-34 xl:top-34 2xl:left-24 2xl:top-42'>ABSOLUTE DINNING</h1>
+          <p className='font-BebusNeue font-normal text-lg xs:text-xl md:text-lg lg:text-lg text-AboutNmbr relative left-24 -top-16 sm:left-24 sm:-top-16 md:left-32 md:-top-6 lg:left-14 lg:-top-6 xl:left-34 xl:top-34 2xl:left-24 2xl:top-42'>Best buffet restuarant</p>
         </div>
 
         <div className="item-3 relative top-0 left-10 xs:top-0 xs:left-10 sm:top-10 sm:left-10  md:top-14 lg:top-20 lg:right-6 xl:top-10 xl:right-30 2xl:right-120 2xl:top-0">
-          <span className='bg-white w-20 h-20 p-1.5 rounded-full border shadow-xl flex justify-start items-center relative md:left-10 md:top-10 lg:left-6 lg:top-10 xl:left-10 xl:top-50 2xl:left-0 2xl:top-60'>
+          <span className='bg-white w-20 h-20 p-1.5 rounded-full border shadow-xl flex justify-start items-center relative md:left-10 md:top-10 lg:-left-10 lg:top-10 xl:left-10 xl:top-50 2xl:left-0 2xl:top-60'>
             <img src={pickup} alt="delivery-icon" className='relative left-3' />
           </span>
-          <h1 className='font-BebusNeue font-bold text-xl xs:text-2xl md:text-xl lg:text-2xl xl:text-3xl text-AboutNmbr relative left-24 -top-16 sm:left-24 sm:-top-16 md:left-32 md:-top-6 lg:left-28 lg:-top-6 xl:left-34 xl:top-34 2xl:left-24 2xl:top-42'>PICKUP DELIVERY</h1>
-          <p className='font-BebusNeue font-normal text-lg xs:text-xl md:text-lg lg:text-xl text-AboutNmbr relative left-24 -top-16 sm:left-24 sm:-top-16 md:left-32 md:-top-6 lg:left-28 lg:-top-6 xl:left-34 xl:top-34 2xl:left-24 2xl:top-42'>Grab your food order</p>
+          <h1 className='font-BebusNeue font-bold text-xl xs:text-2xl md:text-xl lg:text-xl xl:text-3xl text-AboutNmbr relative left-24 -top-16 sm:left-24 sm:-top-16 md:left-32 md:-top-6 lg:left-14 lg:-top-6 xl:left-34 xl:top-34 2xl:left-24 2xl:top-42'>PICKUP DELIVERY</h1>
+          <p className='font-BebusNeue font-normal text-lg xs:text-xl md:text-lg lg:text-lg text-AboutNmbr relative left-24 -top-16 sm:left-24 sm:-top-16 md:left-32 md:-top-6 lg:left-14 lg:-top-6 xl:left-34 xl:top-34 2xl:left-24 2xl:top-42'>Grab your food order</p>
         </div>
       </div>
 
