@@ -46,11 +46,11 @@ const AboutSection = () => {
   };
 
   return (
-    <div className='bg-white md:bg-about-bg  bg-no-repeat bg-right-bottom h-300 sm:h-300 md:h-220 lg:h-220 xl:h-250 2xl:h-250 about-area md:overflow-hidden'>
+    <div className='bg-white md:bg-about-bg  bg-no-repeat bg-right-bottom h-290 sm:h-300 md:h-220 lg:h-220 xl:h-250 2xl:h-250 about-area md:overflow-hidden'>
       <div className="upper-two-area grid grid-cols-1 md:grid-cols-2">
 
         <div className="about-img-area relative left-10 top-6 sm:left-20 sm:top-6 md:left-10 md:top-10 lg:left-5 lg:top-10 xl:left-20 2xl:left-30 xl:top-44 2xl:top-44">
-          <img src={AboutImg} alt="About Image" className='w-[300px] sm:w-[500px] md:w-[300px] lg:w-[460px] xl:w-[500px] 2xl:w-[600px]'/>
+          <img src={AboutImg} alt="About Image" className='w-[350px] sm:w-[500px] md:w-[300px] lg:w-[460px] xl:w-[500px] 2xl:w-[600px]'/>
         </div>
 
         <div className="text-area relative md:-left-15 lg:top-0 lg:-left-6 xl:right-20 2xl:right-50 xl:top-32 xl:w-[800px] 2xl:w-[900px]">

@@ -95,7 +95,7 @@ const Fooditem = () => {
       </Slider>
       </div>
 
-      <div className="flex justify-center mt-4 relative -bottom-20 left-6 sm:bottom-128 sm:left-40 md:bottom-128 md:left-60 lg:bottom-128 lg:left-90 xl:bottom-120 xl:left-120 2xl:bottom-120 2xl:left-130">
+      <div className="flex justify-center mt-4 relative -bottom-20 left-1 sm:bottom-128 sm:left-40 md:bottom-128 md:left-60 lg:bottom-128 lg:left-90 xl:bottom-120 xl:left-120 2xl:bottom-120 2xl:left-130">
         <button
           className='bg-white w-20 h-20 p-1.5 rounded-full border shadow-xl flex justify-center items-center mx-2'
           onClick={() => sliderRef.current.slickPrev()}

@@ -35,12 +35,12 @@ const CustomerArea = () => {
   return (
     <div className='bg-white md:bg-multiple-bg bg-no-repeat bg-top-left h-250 sm:h-270 md:h-140 lg:h-140 xl:h-140 2xl:h-160 about-area md:overflow-hidden multiple-bg'>
       <div className="Customer-text-area">
-        <span className='bg-foodclr w-1 h-1 p-1.5 flex justify-start items-center relative left-20 top-5 sm:left-20 sm:top-5 md:left-36 md:top-5 lg:left-36 lg:top-5 xl:left-36 xl:top-5 2xl:left-60 2xl:top-10'></span>
-        <p className='text-foodclr font-Roboto text-lg font-bold relative left-24 sm:left-24 md:left-40 lg:left-40 xl:left-40 2xl:left-64 2xl:-bottom-5'>Crispy, Every Bite Taste</p>
-        <h1 className='font-BebusNeue font-bold text-foodtxtclr text-3xl sm:text-4xl md:text-3xl lg:text-5xl relative left-20 sm:left-20 md:left-36 lg:left-36 xl:left-36 2xl:left-60 2xl:top-6 sm:w-[500px] md:w-full'>WHAT SOME OF MY CUSTOMER SAY</h1>
+        <span className='bg-foodclr w-1 h-1 p-1.5 flex justify-start items-center relative left-10 top-5 sm:left-20 sm:top-5 md:left-36 md:top-5 lg:left-36 lg:top-5 xl:left-36 xl:top-5 2xl:left-60 2xl:top-10'></span>
+        <p className='text-foodclr font-Roboto text-lg font-bold relative left-14 sm:left-24 md:left-40 lg:left-40 xl:left-40 2xl:left-64 2xl:-bottom-5'>Crispy, Every Bite Taste</p>
+        <h1 className='font-BebusNeue font-bold text-foodtxtclr text-3xl sm:text-4xl md:text-3xl lg:text-5xl relative left-10 sm:left-20 md:left-36 lg:left-36 xl:left-36 2xl:left-60 2xl:top-6 sm:w-[500px] md:w-full'>WHAT SOME OF MY CUSTOMER SAY</h1>
       </div>
 
-      <div className="video-area bg-customerclr bg-customer-bg bg-no-repeat bg-left-bottom w-[400px] h-[700px] sm:w-[600px] sm:h-[800px] md:w-[600px] md:h-[400px] lg:w-[700px] lg:h-[400px] xl:w-[900px] xl:h-[400px] 2xl:w-[1000px] 2xl:h-[400px] relative left-5 top-5 sm:left-10 sm:top-6 md:left-30 md:top-18 lg:left-30 lg:top-10 xl:left-60 xl:top-10  2xl:left-100 2xl:top-20">
+      <div className="video-area bg-customerclr bg-customer-bg bg-no-repeat bg-left-bottom w-[400px] h-[700px] sm:w-[600px] sm:h-[800px] md:w-[600px] md:h-[400px] lg:w-[700px] lg:h-[400px] xl:w-[900px] xl:h-[400px] 2xl:w-[1000px] 2xl:h-[400px] relative left-2 top-5 sm:left-10 sm:top-6 md:left-30 md:top-18 lg:left-30 lg:top-10 xl:left-60 xl:top-10  2xl:left-100 2xl:top-20">
         <hr  className='relative top-165 sm:top-190 md:top-79 lg:top-80 xl:top-90 2xl:top-90 border-AboutNmbr w-[370px] sm:w-[560px] md:w-[300px] lg:w-[350px] xl:w-[450px] 2xl:w-[540px]'/>
         <div className="inner-area flex flex-col-reverse md:flex-row">
           <div className='slider-area mt-10 relative w-full'>
@@ -132,7 +132,7 @@ const CustomerArea = () => {
         </div>
       </div>
 
-      <div className="flex justify-center mt-4 relative -bottom-10 left-6 sm:-bottom-10 sm:left-6 md:bottom-104 md:left-60 lg:bottom-98 lg:left-104 xl:bottom-120 xl:left-120 2xl:bottom-110 2xl:left-130">
+      <div className="flex justify-center mt-4 relative -bottom-10 left-1 sm:-bottom-10 sm:left-6 md:bottom-104 md:left-60 lg:bottom-98 lg:left-104 xl:bottom-120 xl:left-120 2xl:bottom-110 2xl:left-130">
         <button
           className='bg-white w-20 h-20 md:w-16 md:h-16 lg:w-20 lg:h-20 p-1.5 rounded-full border shadow-xl flex justify-center items-center mx-2'
           onClick={handlePrev}

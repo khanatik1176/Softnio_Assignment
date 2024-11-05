@@ -144,7 +144,7 @@ const BookingSection = () => {
               <DatePicker
                 selected={addBookingFormData.date}
                 onChange={(date) => setAddBookingFormData((prevState) => ({ ...prevState, date }))}
-                dateFormat="dd MMMM yyyy"
+                dateFormat="dd MMM yyyy"
                 placeholderText="Reservation Date"
                 name='date'
                 className='bg-transparent border border-white h-10 w-40 sm:h-10 sm:w-60 pl-2 placeholder:text-white'
